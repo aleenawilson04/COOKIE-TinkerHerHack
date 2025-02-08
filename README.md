@@ -1,23 +1,23 @@
-# [Project Name] 🎯
+# EVENT FINDER 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: COOKIE
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Ilham Nadhir - SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY 
+- Member 2: Aleena Wilson -  SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY 
+- Member 3: Ananthasree Biju -  SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY 
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+This project is all about finding events , conserts nearby 
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+
 
 ### The Solution
 [How are you solving it? Keep it fun!]
