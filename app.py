@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Replace with your actual API key and endpoint
-API_KEY = os.getenv('VN6Q7C3ODPVNK74GUN')  # Store your API key in an environment variable
+API_KEY = os.getenv('EVENTS_API_KEY')  # Store your API key in an environment variable
 API_URL = 'https://api.example.com/events'  # Replace with the actual API URL
 
 @app.route('/')
