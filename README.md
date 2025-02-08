@@ -14,7 +14,7 @@
 [mention your project hosted project link here]
 
 ### Project Description
-This project is all about finding events , conserts nearby 
+This project is all about finding events , conserts nearby using geo location
 
 ### The Problem statement
 
