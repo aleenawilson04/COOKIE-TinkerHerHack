@@ -1,4 +1,4 @@
-# EVENT FINDER 🎯
+# FUN FINDY 🎯
 
 
 ## Basic Details
@@ -14,7 +14,7 @@
 [mention your project hosted project link here]
 
 ### Project Description
-Event Finder is a web app that helps users discover upcoming events in their preferred locations.
+Fun Findy is and Event Finder web app that helps users discover upcoming events in their preferred locations.
 It utilizes the Eventbrite API to fetch real-time event data based on user queries.
 
 ### The Problem statement
@@ -42,14 +42,19 @@ For Software: VS Code
 For Software: GitHub
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+drop down list
+![WhatsApp Image 2025-02-09 at 10 16 02_c87ab351](https://github.com/user-attachments/assets/2481ad2e-52cb-4cdd-b606-d141c9262c3b)
+
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+event listing
+![WhatsApp Image 2025-02-09 at 10 16 03_4478c8d9](https://github.com/user-attachments/assets/36e345fc-9d0d-4543-bcef-6a191105babf)
+
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+the whole thing
+![WhatsApp Image 2025-02-09 at 10 16 14_951d5b92](https://github.com/user-attachments/assets/8918eb5d-679a-405d-882b-f97d81714a53)
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
