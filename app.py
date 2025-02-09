@@ -4,9 +4,8 @@ import os
 
 app = Flask(__name__)
 
-# Replace with your actual API key and endpoint
-API_KEY = os.getenv('EVENTS_API_KEY')  # Store your API key in an environment variable
-API_URL = 'https://www.eventbriteapi.com/v3/'  # Replace with the actual API URL
+API_KEY = os.environ.get('EVENTS_API_KEY')  # Store API key in environment variable
+API_URL = 'https://www.eventbriteapi.com/v3/events/search/'  # Correct API endpoint
 
 @app.route('/')
 def index():
@@ -18,14 +17,22 @@ def get_events():
     if not location:
         return jsonify({'error': 'Location is required'}), 400
 
-    # Make a request to the external API
+    # Make a request to the Eventbrite API
     try:
-        response = requests.get(API_URL, params={'location': location, 'key': API_KEY})
+        response = requests.get(
+            f'{API_URL}events/search/',
+            params={
+                'q': location,  # Search query (location or event name)
+                'token': API_KEY,  # Your Eventbrite API token
+                'expand': 'venue'  # Optional: Include venue details
+            }
+        )
         response.raise_for_status()  # Raise an error for bad responses
     except requests.exceptions.RequestException as e:
         return jsonify({'error': str(e)}), 500
 
-    events = response.json()
+    # Parse the response and extract events
+    events = response.json().get('events', [])
     return jsonify(events)
 
 if __name__ == '__main__':
