@@ -1,8 +1,13 @@
-document.getElementById('search-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const location = document.getElementById('location').value;
-    fetchEvents(location);
+document.getElementById("searchBtn").addEventListener("click", function () {
+    const location = document.getElementById("locationInput").value.trim() || "New York"; // Default location
+    fetch(`/events?location=${encodeURIComponent(location)}`)
+        .then(response => response.json())
+        .then(data => {
+            console.log("Fetched events:", data);
+        })
+        .catch(error => console.error("Error fetching events:", error));
 });
+
 
 function fetchEvents(location) {
     fetch(`/events?location=${encodeURIComponent(location)}`)
