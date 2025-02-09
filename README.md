@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/bdd79a66-b938-4754-8ff9-18eb5c1d9b3d
 # FUN FINDY 🎯
 
 
@@ -74,6 +73,9 @@ For Hardware:
 
 # Build Photos
 ![Team] COOKIE
+
+
+https://github.com/user-attachments/assets/bdd79a66-b938-4754-8ff9-18eb5c1d9b3d
 https://github.com/user-attachments/assets/a2add623-49c7-4989-9a57-27ff3622f225
 
 
