@@ -40,12 +40,12 @@ header nav ul li a:hover {
 /* Main Content */
 .main-content {
     text-align: center;
-    padding: 50px;
-    background-image: url('https://via.placeholder.com/1500'); /* URL of your image */
+    padding: 100px;
+    background-image: url("C:\Users\aleen\Downloads\40229-2500x1666-desktop-hd-party-background-photo.jpg"); /* URL of your image */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    border-radius: 10px;
+    border-radius: 50px;
     color: #333;
 }
 
