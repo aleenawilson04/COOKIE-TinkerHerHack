@@ -68,8 +68,8 @@ https://github.com/user-attachments/assets/a2add623-49c7-4989-9a57-27ff3622f225
 *List out all components shown*
 
 ![Build]
-frontend
-![Screenshot (5)](https://github.com/user-attachments/assets/deb67e20-467c-48a6-9a50-27e8d25822b8)
+VS Code:
+
 
 Flask fetching details
 ![Screenshot (17)](https://github.com/user-attachments/assets/862867ea-630d-4daf-b9be-d8b1756e272b)
@@ -81,8 +81,7 @@ Flask fetching details
 
 ### Project Demo
 # Video
-
-
+https://github.com/user-attachments/assets/990a6602-54c8-415b-a1b1-b29505fab1d5
 
 
 ## Team Contributions
