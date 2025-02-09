@@ -34,9 +34,6 @@ For Software:
 ### Implementation
 For Software: VS Code
 
-# Installation
-[commands]
-
 # Run
 python app.py
 
@@ -58,18 +55,6 @@ the whole thing
 ![WhatsApp Image 2025-02-09 at 10 16 14_951d5b92](https://github.com/user-attachments/assets/8918eb5d-679a-405d-882b-f97d81714a53)
 
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
 ![Team] COOKIE
@@ -83,10 +68,8 @@ https://github.com/user-attachments/assets/a2add623-49c7-4989-9a57-27ff3622f225
 *List out all components shown*
 
 ![Build]
-html:
+frontend
 ![Screenshot (5)](https://github.com/user-attachments/assets/deb67e20-467c-48a6-9a50-27e8d25822b8)
-
-
 
 Flask fetching details
 ![Screenshot (17)](https://github.com/user-attachments/assets/862867ea-630d-4daf-b9be-d8b1756e272b)
