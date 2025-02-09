@@ -12,7 +12,7 @@
 - Member 3: Ananthasree Biju -  SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY 
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://cookie-tinkerherhack-ukfu.onrender.com/ 
 
 ### Project Description
 Fun Findy is and Event Finder web app that helps users discover upcoming events in their preferred locations.
