@@ -1,43 +1,45 @@
-// You can replace this with your actual API call to Eventbrite or Meetup API
-const events = [
-    {
-        title: "Cyberpunk Concert",
-        description: "An electrifying cyberpunk concert with neon lights and techno music.",
-        date: "2025-02-15",
-        image: "https://via.placeholder.com/250"
-    },
-    {
-        title: "Tech Conference 2025",
-        description: "Join the latest trends and innovations in the tech industry.",
-        date: "2025-03-01",
-        image: "https://via.placeholder.com/250"
-    },
-    {
-        title: "Music Festival 2025",
-        description: "A 3-day music festival featuring the best artists from around the world.",
-        date: "2025-04-10",
-        image: "https://via.placeholder.com/250"
-    }
-];
+document.getElementById('search-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const location = document.getElementById('location').value;
+    fetchEvents(location);
+});
 
-// Function to render events
-function displayEvents() {
-    const eventList = document.getElementById("event-list");
+function fetchEvents(location) {
+    fetch(`/events?location=${encodeURIComponent(location)}`)
+        .then(response => response.json())
+        .then(data => {
+            displayEvents(data);
+        })
+        .catch(error => console.error('Error fetching events:', error));
+}
+
+function displayEvents(events) {
+    const eventList = document.getElementById('event-list');
+    eventList.innerHTML = ''; // Clear previous events
+
+    if (events.length === 0) {
+        eventList.innerHTML = '<p>No events found.</p>';
+        return;
+    }
 
     events.forEach(event => {
-        const eventItem = document.createElement("div");
-        eventItem.classList.add("event-item");
+        const eventItem = document.createElement('div');
+        eventItem.classList.add('event-item');
+
+        const eventImage = event.logo ? event.logo.url : 'https://via.placeholder.com/250';
+        const eventName = event.name.text;
+        const eventDescription = event.description.text;
+        const eventDate = event.start.local;
+        const eventVenue = event.venue ? event.venue.name : 'Venue not specified';
 
         eventItem.innerHTML = `
-            <img src="${event.image}" alt="${event.title}">
-            <h3>${event.title}</h3>
-            <p>${event.description}</p>
-            <p><strong>Date:</strong> ${event.date}</p>
+            <img src="${eventImage}" alt="${eventName}">
+            <h3>${eventName}</h3>
+            <p>${eventDescription}</p>
+            <p><strong>Date:</strong> ${eventDate}</p>
+            <p><strong>Venue:</strong> ${eventVenue}</p>
         `;
 
         eventList.appendChild(eventItem);
     });
 }
-
-// Call the function to display events when the page loads
-window.onload = displayEvents;

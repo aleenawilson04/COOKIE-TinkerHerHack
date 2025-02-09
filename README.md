@@ -14,29 +14,24 @@
 [mention your project hosted project link here]
 
 ### Project Description
-This project is all about finding events , conserts nearby using geo location
+Event Finder is a web app that helps users discover upcoming events in their preferred locations.
+It utilizes the Eventbrite API to fetch real-time event data based on user queries.
 
 ### The Problem statement
-
+The unability to find events and event datas happening locally at a location
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+We used an API from Eventbrite which gives us real time data on events happening at locations.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- HTML, CSS, JS (Front End)
+- Flask (Back End)
+- VS Code, Chat GPT
 
 ### Implementation
-For Software:
+For Software: VS Code
 # Installation
 [commands]
 
@@ -44,7 +39,7 @@ For Software:
 [commands]
 
 ### Project Documentation
-For Software:
+For Software: GitHub
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
