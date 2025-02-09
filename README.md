@@ -26,7 +26,8 @@ We used an API from Eventbrite which gives us real time data on events happening
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- HTML, CSS, JS
+- HTML, CSS, JS (Front End)
+- Flask (Back End)
 - VS Code, Chat GPT
 
 ### Implementation
